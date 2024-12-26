@@ -1,0 +1,20 @@
+{
+  "telegram": "1154288980",
+  "alerts": {
+    "containerStopped": {
+      "condition": true
+    },
+    "ram": {
+      "condition": false,
+      "percent": 50
+    },
+    "cpu": {
+      "condition": true,
+      "percent": 50
+    },
+    "storage": {
+      "condition": false,
+      "percent": 50
+    }
+  }
+}

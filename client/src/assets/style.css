@@ -1,0 +1,36 @@
+
+
+body {
+    background-color: #272727;
+    color: #747474;
+    font-family: Montserrat-SemiBold, serif;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+input[type="number"],
+input[type="number"] :focus, :hover, ::-webkit-inner-spin-button, ::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    appearance: none;
+    -moz-appearance: textfield;
+}
+
+.alerts-message {
+    background-color: #272727 !important; /* Темный фон */
+    color: #747474 !important; /* Светлый текст */
+    border: 2px solid #444 !important; /* Граница сообщения */
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1) !important; /* Тень */
+    z-index: 100;
+}
+
+
+
+
+
+@font-face {
+font-family: "Montserrat-SemiBold";
+src: url("./font/Montserrat-SemiBold.ttf") format("truetype");
+}

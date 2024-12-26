@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./dist:/app/dist  # bind mount папки dist на хост-машину
+    environment:
+      - NODE_ENV=production

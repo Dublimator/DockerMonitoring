@@ -1,0 +1,10 @@
+{
+  "TOKEN": "7520360990:AAF5wZhhUT3sub0K6Q1dPgRqRLUUFQbE7Gs",
+  "INTERVAL_MESSAGE": 10,
+  "message": {
+    "welcome": "Привет, я буду тебя предупреждать о состояние сервера, если тебя указал админ)",
+    "warn": "Предупреждение: \n",
+    "containerStopped": "Остановленные контейнеры: \n",
+    "test": "Тестовое сообщение DublimatorPane"
+  }
+}
